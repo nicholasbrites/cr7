@@ -1,0 +1,232 @@
+body{
+    background: url(imagens/fundo.png) no-repeat fixed;
+    margin: 0;
+    display: flex;
+}
+
+#id{
+    width: 1440px;
+    display: flex;
+}
+
+.cabecalho{
+    width: 720px;
+    background-color: #0C171B;
+}
+
+.canto{
+    width: 360px;
+}
+
+.divlogo{
+    background-color: black;
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.titulo{
+    color: white;
+    text-align: center;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo h2{
+    padding-top: 20px;
+}
+
+.alatimes{
+    display: flex;
+}
+
+.time-pb{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
+.time-pb img{
+    height: 113px;
+    padding-top: 4px;
+}
+
+.time{
+    background-color: white;
+    border-radius: 30px 30px 0 0;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
+.time img{
+    height: 113px;
+    padding-top: 4px;
+}
+
+.conteudohome{
+    background-color: white;
+    text-align: center;
+    height: 360px;
+    border: solid 5px;
+    border-color: white #0C171B #0C171B #0C171B;
+}
+
+.conteudohome h1{
+    padding-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.conteudo-sporting{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #008057 #0C171B #008057;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-sporting h2{
+    color: #0C171B;
+}
+
+.conteudo-sporting img{
+    width: 500px;
+    margin-left: 85px;
+    border: #008057 double 5px;
+}
+
+.conteudo-sporting video{
+    width: 500px;
+    margin-left: 85px;
+    border: #008057 double 5px;
+}
+
+.conteudo-united{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #DA020E #0C171B #DA020E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-united h2{
+    color: #0C171B;
+}
+
+.conteudo-united img{
+    width: 500px;
+    margin-left: 85px;
+    border: #DA020E double 5px;
+}
+
+.conteudo-united video{
+    width: 500px;
+    margin-left: 85px;
+    border: #DA020E double 5px;
+}
+
+.conteudo-real{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #004996 #0C171B #004996;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-real h2{
+    color: #0C171B;
+}
+
+.conteudo-real img{
+    width: 500px;
+    margin-left: 85px;
+    border: #004996 double 5px;
+}
+
+.conteudo-real video{
+    width: 500px;
+    margin-left: 85px;
+    border: #004996 double 5px;
+}
+
+.conteudo-juventus{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #000000 #0C171B #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-juventus h2{
+    color: #0C171B;
+}
+
+.conteudo-juventus img{
+    width: 500px;
+    margin-left: 85px;
+    border: #000000 double 5px;
+}
+
+.conteudo-juventus video{
+    width: 500px;
+    margin-left: 85px;
+    border: #000000 double 5px;
+}
+
+.conteudo-alnassr{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #FFD02D #0C171B #FFD02D;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-alnassr h2{
+    color: #0C171B;
+}
+
+.conteudo-alnassr img{
+    width: 500px;
+    margin-left: 85px;
+    border: #FFD02D double 5px;
+}
+
+.conteudo-alnassr video{
+    width: 500px;
+    margin-left: 85px;
+    border: #FFD02D double 5px;
+}
+
+.conteudo-portugal{
+    background-color: white;
+    border: solid 7px;
+    border-color: white #B21A10 #0C171B #B21A10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+.conteudo-portugal h2{
+    color: #0C171B;
+}
+
+.conteudo-portugal img{
+    width: 500px;
+    margin-left: 85px;
+    border: #B21A10 double 5px;
+}
+
+.conteudo-portugal video{
+    width: 500px;
+    margin-left: 85px;
+    border: #B21A10 double 5px;
+}
+
+.rodape{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    padding: 1px;
+}
